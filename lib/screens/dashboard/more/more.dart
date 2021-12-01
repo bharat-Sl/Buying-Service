@@ -69,7 +69,15 @@ class _MoreState extends State<More> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
+    return Container(
+      decoration: BoxDecoration(
+          gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [
+            Color.fromRGBO(252, 208, 202, 1),
+            Color.fromRGBO(255, 255, 255, 1)
+          ])),
       padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 15),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -80,7 +88,7 @@ class _MoreState extends State<More> {
               fontSize: 40,
               fontWeight: FontWeight.w500,
               letterSpacing: -1,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
           SizedBox(
@@ -124,13 +132,13 @@ class _MoreState extends State<More> {
                         children: [
                           Icon(
                             Icons.person,
-                            color: Colors.white,
+                            color: Colors.black,
                           ),
                           SizedBox(height: 6),
                           Text(
                             "Profile",
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                             ),
@@ -157,13 +165,13 @@ class _MoreState extends State<More> {
                   //     children: [
                   //       Icon(
                   //         Icons.settings,
-                  //         color: Colors.white,
+                  //         color: Colors.black,
                   //       ),
                   //       SizedBox(height: 6),
                   //       Text(
                   //         "Settings",
                   //         style: TextStyle(
-                  //           color: Colors.white,
+                  //           color: Colors.black,
                   //           fontSize: 16,
                   //           fontWeight: FontWeight.w400,
                   //         ),
@@ -197,13 +205,13 @@ class _MoreState extends State<More> {
                         children: [
                           Icon(
                             Icons.info,
-                            color: Colors.white,
+                            color: Colors.black,
                           ),
                           SizedBox(height: 6),
                           Text(
                             "About",
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                             ),
@@ -235,13 +243,13 @@ class _MoreState extends State<More> {
                         children: [
                           Icon(
                             Icons.support_agent,
-                            color: Colors.white,
+                            color: Colors.black,
                           ),
                           SizedBox(height: 6),
                           Text(
                             "Support",
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                             ),
@@ -268,13 +276,13 @@ class _MoreState extends State<More> {
                       children: [
                         Icon(
                           Icons.build,
-                          color: Colors.white,
+                          color: Colors.black,
                         ),
                         SizedBox(height: 6),
                         Text(
                           "Signup as provider",
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 16,
                             fontWeight: FontWeight.w400,
                           ),
@@ -300,13 +308,13 @@ class _MoreState extends State<More> {
                       children: [
                         Icon(
                           Icons.logout,
-                          color: Colors.white,
+                          color: Colors.black,
                         ),
                         SizedBox(height: 6),
                         Text(
                           "Logout",
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 16,
                             fontWeight: FontWeight.w400,
                           ),
