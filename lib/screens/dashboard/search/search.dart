@@ -20,7 +20,7 @@ class _SearchState extends State<Search> {
               fontSize: 40,
               fontWeight: FontWeight.w500,
               letterSpacing: -1,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
           SizedBox(
@@ -38,14 +38,14 @@ class _SearchState extends State<Search> {
               children: [
                 Icon(
                   Icons.search,
-                  color: Colors.white.withOpacity(0.7),
+                  color: Colors.black.withOpacity(0.7),
                 ),
                 SizedBox(
                   width: 10,
                 ),
                 Text(
                   "Home cleaning...",
-                  style: TextStyle(color: Colors.white.withOpacity(0.9)),
+                  style: TextStyle(color: Colors.black.withOpacity(0.9)),
                 )
               ],
             ),

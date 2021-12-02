@@ -28,7 +28,7 @@ class _BookingsState extends State<BookingScreen> {
                       fontSize: 40,
                       fontWeight: FontWeight.w500,
                       letterSpacing: -1,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ),
@@ -61,7 +61,7 @@ class _BookingsState extends State<BookingScreen> {
                                     padding: EdgeInsets.only(left: 12.0),
                                     child: Text("Fish chef",
                                         style: TextStyle(
-                                            color: Colors.white,
+                                            color: Colors.black,
                                             fontWeight: FontWeight.w600,
                                             fontSize: 19)),
                                   ),
@@ -80,7 +80,7 @@ class _BookingsState extends State<BookingScreen> {
                                       child: Text(
                                         'Done',
                                         style: TextStyle(
-                                            color: Colors.white,
+                                            color: Colors.black,
                                             fontWeight: FontWeight.w500,
                                             fontSize: 14.0),
                                       ),
@@ -95,7 +95,7 @@ class _BookingsState extends State<BookingScreen> {
                                           .format(DateTime.now())
                                           .toString(),
                                       style: TextStyle(
-                                          color: Colors.white,
+                                          color: Colors.black,
                                           letterSpacing: 1),
                                     ),
                                   ),
@@ -136,7 +136,7 @@ class _BookingsState extends State<BookingScreen> {
                         fontSize: 40,
                         fontWeight: FontWeight.w500,
                         letterSpacing: -1,
-                        color: Colors.white,
+                        color: Colors.black,
                       ),
                     ),
                   ),
@@ -153,7 +153,7 @@ class _BookingsState extends State<BookingScreen> {
                   ),
                   Text(
                     "You don't have any bookings",
-                    style: TextStyle(color: Colors.white, fontSize: 18),
+                    style: TextStyle(color: Colors.black, fontSize: 18),
                   )
                 ],
               ),

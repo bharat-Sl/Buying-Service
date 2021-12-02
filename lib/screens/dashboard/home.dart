@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
                   Text(
                     "How can I help you\ntoday?",
                     style: TextStyle(
-                        color: Colors.white.withOpacity(0.9),
+                        color: Colors.black.withOpacity(0.9),
                         fontSize: 38,
                         height: 1,
                         letterSpacing: -0.6,
@@ -76,7 +76,7 @@ class _HomeState extends State<Home> {
                       children: [
                         Icon(
                           Icons.location_pin,
-                          color: Colors.white.withOpacity(0.8),
+                          color: Colors.black.withOpacity(0.8),
                           size: 18,
                         ),
                         SizedBox(
@@ -88,13 +88,13 @@ class _HomeState extends State<Home> {
                                 ? "Choose address"
                                 : home.location,
                             style:
-                                TextStyle(color: Colors.white.withOpacity(0.8)),
+                                TextStyle(color: Colors.black.withOpacity(0.8)),
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
                           ),
                         ),
                         Icon(Icons.arrow_drop_down,
-                            color: Colors.white.withOpacity(0.8))
+                            color: Colors.black.withOpacity(0.8))
                       ],
                     ),
                   ),
@@ -111,7 +111,7 @@ class _HomeState extends State<Home> {
                       children: [
                         Icon(
                           Icons.search,
-                          color: Colors.white.withOpacity(0.7),
+                          color: Colors.black.withOpacity(0.7),
                         ),
                         SizedBox(
                           width: 10,
@@ -119,7 +119,7 @@ class _HomeState extends State<Home> {
                         Text(
                           "Find what you need",
                           style:
-                              TextStyle(color: Colors.white.withOpacity(0.9)),
+                              TextStyle(color: Colors.black.withOpacity(0.9)),
                         )
                       ],
                     ),
@@ -138,7 +138,7 @@ class _HomeState extends State<Home> {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
                   "Categories",
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                  style: TextStyle(color: Colors.black, fontSize: 18),
                 ),
               ),
               SizedBox(height: 5),
@@ -201,7 +201,7 @@ class _HomeState extends State<Home> {
               child: Container(
                   width: width,
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Colors.black,
                     borderRadius: BorderRadius.all(Radius.circular(15)),
                     boxShadow: <BoxShadow>[
                       BoxShadow(
@@ -256,7 +256,7 @@ class _HomeState extends State<Home> {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
                   "Popular services",
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                  style: TextStyle(color: Colors.black, fontSize: 18),
                 ),
               ),
               SizedBox(height: 5),
@@ -304,7 +304,7 @@ class _HomeState extends State<Home> {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
                   "Recommended services",
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                  style: TextStyle(color: Colors.black, fontSize: 18),
                 ),
               ),
               SizedBox(height: 5),
@@ -363,7 +363,7 @@ class _HomeState extends State<Home> {
               child: Container(
                   width: width,
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Colors.black,
                     borderRadius: BorderRadius.all(Radius.circular(15)),
                     boxShadow: <BoxShadow>[
                       BoxShadow(
@@ -416,7 +416,7 @@ class _HomeState extends State<Home> {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
                   "Plumbers",
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                  style: TextStyle(color: Colors.black, fontSize: 18),
                 ),
               ),
               SizedBox(height: 5),
@@ -460,7 +460,7 @@ class _HomeState extends State<Home> {
             child: Text(
               "Appliances: Service & Repair",
               style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black,
                   fontSize: 23,
                   fontWeight: FontWeight.bold),
             ),
@@ -495,7 +495,7 @@ class _HomeState extends State<Home> {
                       Text(
                         "Air Conditioner",
                         style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 16,
                             fontWeight: FontWeight.bold),
                       ),
@@ -515,7 +515,7 @@ class _HomeState extends State<Home> {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
                   "Carpenters",
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                  style: TextStyle(color: Colors.black, fontSize: 18),
                 ),
               ),
               SizedBox(height: 5),

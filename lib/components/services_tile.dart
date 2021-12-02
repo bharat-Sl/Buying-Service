@@ -33,6 +33,7 @@ class ServicesTile extends StatelessWidget {
         width: 200,
         height: 160,
         decoration: BoxDecoration(
+            color: Color.fromRGBO(53, 53, 53, 1),
             borderRadius: BorderRadius.circular(8),
             border: Border.all(
               color: Color.fromRGBO(191, 150, 86, 0.7),
